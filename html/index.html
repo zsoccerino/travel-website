@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible"
+    content="ie=edge" />
+  <meta name="keywords"
+    content="Travel and Fun, Traveling, Hotels" />
+  <title>Travel</title>
+  <link rel="shortcut icon"
+    href="../images/favicon.ico"
+    type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="../css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h3 class="head-logo-text-h3">Travel <sub class="head-logo-n">N</sub> Fun</h3>
+    <img class="head-logo-img"
+      src="../images/Compass-icon.webp"
+      alt="compass-icon" />
+    <nav class="head-nav-nav">
+      <ul class="head-nav-ul">
+        <li class="li-hotels">
+          <a class="head-nav-ul-a"
+            href="#">Hotels</a>
+        </li>
+        <li class="li-flights">
+          <a class="head-nav-ul-a"
+            href="#">Flights</a>
+        </li>
+        <li class="li-pack">
+          <a class="head-nav-ul-a"
+            href="#">Packages</a>
+        </li>
+        <li class="li-contact">
+          <a class="head-nav-ul-a"
+            href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="login-btn"
+      href="#"
+      type="button">Log In</button>
+  </header>
+
+  <main>
+    <section class="section-1">
+      <h1 class="tale-h1">
+        Turn your trips <br />
+        into a tale
+      </h1>
+      <p class="tale-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br />Est blanditiis cupiditate natus fuga,<br />libero tempous facilis rerim.</p>
+      <button class="packages-btn"
+        href="#"
+        type="button">
+        View Packages
+      </button>
+    </section>
+    <div class="img-anim-wrap">
+      <img class="img-anim-bg"
+        src="../images/BG.webp"
+        alt="mountains" />
+      <img class="img-anim-rock"
+        src="../images/Rock.webp"
+        alt="rock" />
+      <img class="img-anim-fgl"
+        src="../images/FG_L.webp"
+        alt="hilltop" />
+      <img class="img-anim-cple"
+        src="../images/Couple.webp"
+        alt="couple" />
+    </div>
+    <section class="section-2">
+      <h2 class="search-hotel-h2">
+        Search for Hotels
+      </h2>
+      <form class="hotel-form"
+        action="#"
+        method="get">
+        <label for="destination"
+          class="dest-select">Destination</label>
+        <select name="destination"
+          id="destination"
+          class="input-field dest-select"
+          required>
+          <option value="unselected"></option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Berlin">Berlin</option>
+          <option value="London">London</option>
+          <option value="Paris">Paris</option>
+          <option value="Rome">Rome</option>
+        </select>
+        <label for="checkin"
+          class="check-in">Check In</label>
+        <input type="date"
+          name="checkin"
+          id="checkin"
+          class="input-field check-in"
+          required />
+        <label for="checkout"
+          class="check-out">Check Out</label>
+        <input type="date"
+          name="checkout"
+          id="checkout"
+          class="input-field check-out"
+          required />
+        <label for="adults"
+          class="ppl-adults">Adults</label>
+        <select id="adults"
+          name="adults"
+          class="input-field ppl-adults">
+          <option value="1 Adult">1 Adult</option>
+          <option value=" 2 Adults">2 Adults</option>
+          <option value="3 Adults">3 Adults</option>
+          <option value="4 Adults">4 Adults</option>
+        </select>
+        <label for="children"
+          class="ppl-children">Children</label>
+        <select id="children"
+          name="children"
+          class="input-field ppl-children">
+          <option value="0 Children">No Children</option>
+          <option value="1 Child">1 Child</option>
+          <option value="2 Children">2 Children</option>
+          <option value="3 Children">3 Children</option>
+          <option value="4 Children">4 Children</option>
+        </select>
+        <input type="submit"
+          class="input-field hotel-submit-btn"
+          value="Search" />
+      </form>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+  <script src="../script/app.js"></script>
+</body>
+
+</html>
